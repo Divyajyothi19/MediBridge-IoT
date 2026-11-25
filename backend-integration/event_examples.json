@@ -1,0 +1,113 @@
+{
+  "_comment": "Real event lines produced by the firmware in the host test run (tests/host). Device id/time are test values.",
+  "events": [
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0001",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 0,
+      "event_type": "device_started",
+      "sensor_value": 0,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 1500,
+      "detail": "fw=1.0.0"
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0002",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 1,
+      "event_type": "reminder_started",
+      "sensor_value": 1,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 5700,
+      "detail": "blynk"
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0003",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 1,
+      "event_type": "compartment_opened",
+      "sensor_value": 1,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 7550,
+      "detail": "expected"
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0004",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 1,
+      "event_type": "compartment_closed",
+      "sensor_value": 0,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 11650,
+      "detail": ""
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0006",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 3,
+      "event_type": "wrong_compartment",
+      "sensor_value": 1,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 14970,
+      "detail": "expected=2"
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0008",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 2,
+      "event_type": "reminder_stopped",
+      "sensor_value": 0,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 19120,
+      "detail": "cancelled_cloud"
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0009",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 1,
+      "event_type": "stock_changed",
+      "sensor_value": 100,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 21310,
+      "detail": "MEDIUM->FULL"
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0011",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 1,
+      "event_type": "stock_empty",
+      "sensor_value": 0,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 26510,
+      "detail": "LOW->EMPTY"
+    },
+    {
+      "schema": 1,
+      "event_id": "MB-TEST-01-a1b2c3d4-0015",
+      "device_id": "MB-TEST-01",
+      "compartment_id": 3,
+      "event_type": "reminder_missed",
+      "sensor_value": 0,
+      "timestamp": "2026-11-24T12:54:56Z",
+      "time_synced": true,
+      "uptime_ms": 339420,
+      "detail": "timeout"
+    }
+  ]
+}

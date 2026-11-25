@@ -1,0 +1,31 @@
+# Secrets - never commit
+circuit/config.h
+.env
+backend/.env
+*.env
+!.env.example
+
+# Database
+*.db
+*.sqlite3
+backend/medibridge.db*
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# Python / Build / editor output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+.pio/
+build/
+tests/host/events_dump.jsonl
+.DS_Store
+.vscode/

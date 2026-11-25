@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 530" font-family="Arial,sans-serif">
+<rect width="760" height="530" fill="#f7fbfc"/>
+<text x="20" y="32" font-size="22" font-weight="bold" fill="#17445a">MediBridge wiring (ESP32 DevKit)</text>
+<text x="20" y="54" font-size="13" fill="#456">Every "GND" is the same ground. Pots: outer pins to 3V3 and GND, middle pin to the GPIO.</text>
+<rect x="270" y="70" width="150" height="440" rx="14" fill="#d8eef2" stroke="#17445a" stroke-width="2"/>
+<text x="345" y="265" text-anchor="middle" font-size="20" font-weight="bold" fill="#17445a">ESP32</text>
+<text x="345" y="287" text-anchor="middle" font-size="13" fill="#17445a">DevKit</text>
+<line x1="270" y1="100" x2="215" y2="100" stroke="#2a9d8f" stroke-width="4"/>
+<text x="262" y="94" text-anchor="end" font-size="12" fill="#17445a">GPIO 25</text>
+<rect x="20" y="82" width="195" height="36" rx="8" fill="#2a9d8f" opacity="0.25" stroke="#2a9d8f"/>
+<text x="30" y="98" font-size="13" font-weight="bold" fill="#17445a">Lid sensor 1 (button/reed)</text>
+<text x="30" y="113" font-size="11" fill="#345">other side -> GND</text>
+<line x1="270" y1="144" x2="215" y2="144" stroke="#2a9d8f" stroke-width="4"/>
+<text x="262" y="138" text-anchor="end" font-size="12" fill="#17445a">GPIO 26</text>
+<rect x="20" y="126" width="195" height="36" rx="8" fill="#2a9d8f" opacity="0.25" stroke="#2a9d8f"/>
+<text x="30" y="142" font-size="13" font-weight="bold" fill="#17445a">Lid sensor 2</text>
+<text x="30" y="157" font-size="11" fill="#345">other side -> GND</text>
+<line x1="270" y1="188" x2="215" y2="188" stroke="#2a9d8f" stroke-width="4"/>
+<text x="262" y="182" text-anchor="end" font-size="12" fill="#17445a">GPIO 27</text>
+<rect x="20" y="170" width="195" height="36" rx="8" fill="#2a9d8f" opacity="0.25" stroke="#2a9d8f"/>
+<text x="30" y="186" font-size="13" font-weight="bold" fill="#17445a">Lid sensor 3</text>
+<text x="30" y="201" font-size="11" fill="#345">other side -> GND</text>
+<line x1="270" y1="232" x2="215" y2="232" stroke="#e9c46a" stroke-width="4"/>
+<text x="262" y="226" text-anchor="end" font-size="12" fill="#17445a">GPIO 18</text>
+<rect x="20" y="214" width="195" height="36" rx="8" fill="#e9c46a" opacity="0.25" stroke="#e9c46a"/>
+<text x="30" y="230" font-size="13" font-weight="bold" fill="#17445a">LED 1 via 220 ohm</text>
+<text x="30" y="245" font-size="11" fill="#345">LED cathode -> GND</text>
+<line x1="270" y1="276" x2="215" y2="276" stroke="#e9c46a" stroke-width="4"/>
+<text x="262" y="270" text-anchor="end" font-size="12" fill="#17445a">GPIO 19</text>
+<rect x="20" y="258" width="195" height="36" rx="8" fill="#e9c46a" opacity="0.25" stroke="#e9c46a"/>
+<text x="30" y="274" font-size="13" font-weight="bold" fill="#17445a">LED 2 via 220 ohm</text>
+<text x="30" y="289" font-size="11" fill="#345">LED cathode -> GND</text>
+<line x1="270" y1="320" x2="215" y2="320" stroke="#e9c46a" stroke-width="4"/>
+<text x="262" y="314" text-anchor="end" font-size="12" fill="#17445a">GPIO 21</text>
+<rect x="20" y="302" width="195" height="36" rx="8" fill="#e9c46a" opacity="0.25" stroke="#e9c46a"/>
+<text x="30" y="318" font-size="13" font-weight="bold" fill="#17445a">LED 3 via 220 ohm</text>
+<text x="30" y="333" font-size="11" fill="#345">LED cathode -> GND</text>
+<line x1="270" y1="364" x2="215" y2="364" stroke="#e76f51" stroke-width="4"/>
+<text x="262" y="358" text-anchor="end" font-size="12" fill="#17445a">GPIO 23</text>
+<rect x="20" y="346" width="195" height="36" rx="8" fill="#e76f51" opacity="0.25" stroke="#e76f51"/>
+<text x="30" y="362" font-size="13" font-weight="bold" fill="#17445a">Buzzer +</text>
+<text x="30" y="377" font-size="11" fill="#345">buzzer - -> GND</text>
+<line x1="270" y1="408" x2="215" y2="408" stroke="#9b8bd1" stroke-width="4"/>
+<text x="262" y="402" text-anchor="end" font-size="12" fill="#17445a">GPIO 34</text>
+<rect x="20" y="390" width="195" height="36" rx="8" fill="#9b8bd1" opacity="0.25" stroke="#9b8bd1"/>
+<text x="30" y="406" font-size="13" font-weight="bold" fill="#17445a">Stock pot 1 wiper (SIG)</text>
+<text x="30" y="421" font-size="11" fill="#345">ends -> 3V3 / GND</text>
+<line x1="270" y1="452" x2="215" y2="452" stroke="#9b8bd1" stroke-width="4"/>
+<text x="262" y="446" text-anchor="end" font-size="12" fill="#17445a">GPIO 35</text>
+<rect x="20" y="434" width="195" height="36" rx="8" fill="#9b8bd1" opacity="0.25" stroke="#9b8bd1"/>
+<text x="30" y="450" font-size="13" font-weight="bold" fill="#17445a">Stock pot 2 wiper (SIG)</text>
+<text x="30" y="465" font-size="11" fill="#345">ends -> 3V3 / GND</text>
+<line x1="270" y1="496" x2="215" y2="496" stroke="#9b8bd1" stroke-width="4"/>
+<text x="262" y="490" text-anchor="end" font-size="12" fill="#17445a">GPIO 32</text>
+<rect x="20" y="478" width="195" height="36" rx="8" fill="#9b8bd1" opacity="0.25" stroke="#9b8bd1"/>
+<text x="30" y="494" font-size="13" font-weight="bold" fill="#17445a">Stock pot 3 wiper (SIG)</text>
+<text x="30" y="509" font-size="11" fill="#345">ends -> 3V3 / GND</text>
+</svg>
